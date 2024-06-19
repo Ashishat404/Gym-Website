@@ -1,0 +1,125 @@
+/* CSS Reset  */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("images/backgr.jpg");
+    background-size: cover;
+    /*yaha par background ki photo aayegi */
+}
+
+/* .left,.mid,.right all are block elements and if we want all of them in a single row then they should be inline block in display property */
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 120px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 18px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    /* width: 33%; */
+    width: 41.5%;
+    margin: 35px auto;
+    /*to bring anything in mid but we have to use display block width and margin auto*/
+    top: 43px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    /*to remove the line below */
+    padding: 34px 23px;
+}
+
+.navbar li a:hover {
+    color: yellow;
+}
+
+.navbar li a.active {
+    color: rgb(154, 142, 142);
+    text-decoration: none;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-color: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 134px 55px;
+    padding: 56px 45px;
+    width: 33%;
+    border-radius: 18px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 325px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 15px;
+    border-radius: 14px;
+}
+
+.container h1 {
+    text-align: center;
+    /* color: blueviolet; */
+}
+
+.container button {
+    display: block;
+    width: 45%;
+    margin: 30px auto;
+}
+
+
